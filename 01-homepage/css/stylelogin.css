@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700;900&display=swap');
+
+
+/* ---------------------------------
+1. PRIMARY STYLES
+--------------------------------- */
+
+html{min-height: 100%; font-size: 100%; height: 100%;  overflow-x: hidden; touch-action: manipulation; 
+ }
+
+body{ font-size: 15px; font-family: 'Raleway', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
+	color: #000; background-image: url(../../images/pexel/fraise.jpg); background-size: cover;}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button{ margin: 0; padding: 0; }
+
+h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+
+p{ line-height: 1.6; font-size: 1.05em; font-family: 'Maven Pro', sans-serif; font-weight: 400; color: #555; }
+
+h1{ font-size: 4em; line-height: 1; }
+h2{ font-size: 2.8em; line-height: 1.1; }
+h3{ font-size: 1.8em; }
+h4{ font-size: 1.5em; }
+h5{ font-size: 1.2em; }
+h6{ font-size: .9em; letter-spacing: 1px; }
+
+a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; }
+
+a:focus, a:active, a:hover,
+button:focus, button:active, button:hover,
+a b.light-color:hover{ text-decoration: none; color: #e29275; }
+
+b{ font-weight: 500; }
+
+img{ width: 100%; }
+
+li{ list-style: none; display: inline-block; }
+
+span{ display: inline-block; }
+
+button{ outline: 0; border: 0; background: none; cursor: pointer; }
+
+b.light-color{ color: #444; }
+
+
+
+/* ---------------------------------
+2. COMMONS FOR PAGE DESIGN
+--------------------------------- */
+
+.btn{ font-size: .9em; padding: 15px 30px; border-radius: 1px; letter-spacing: 2px; 
+	border: 1px solid #e29275; background: #e29275; color: #fff; }
+
+.btn:hover{ color: #e29275; background: none; }
+
+.btn-2{ background: none; color: #e29275; }
+
+.btn-2:hover{ background: #e29275; color: #fff; }
+
+
+.form { padding: 20px 0; }
+
+.form p { color: #fff; color: rgba(255, 255, 255, 0.8); }
+.form p.description { margin-bottom: 20px; }
+.form p.copyright { margin-top: 40px; }
+
+.form .form-group { text-align: left; }
+
+.form input[type="text"],
+.form input[type="password"] {
+    background: #fff; border: 2px solid #fff; 
+    font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; 
+    box-shadow: none;
+}
+.form input[type="text"]:focus,
+.form input[type="password"]:focus { outline: 0; background: #fff; border: 2px solid #a365bc; box-shadow: none; }
+
+.form input[type="text"]::-moz-placeholder,
+.form input[type="password"]::-moz-placeholder { color: #bbb; font-style: italic; }
+
+.form input[type="text"]:-ms-input-placeholder,
+.form input[type="password"]:-ms-input-placeholder { color: #bbb; font-style: italic; }
+
+.form input[type="text"]::-webkit-input-placeholder,
+.form input[type="password"]::-webkit-input-placeholder { color: #bbb; font-style: italic; }
+
+.form button.btn-customized {
+	margin-top: 1rem;
+	padding: .75rem 1.5rem; 
+	background: #a365bc;
+	border: 0; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400; color: #fff; 
+    box-shadow: none;
+}
+
+.form button.btn-customized:hover, 
+.form button.btn-customized:active, 
+.form button.btn-customized:focus, 
+.form button.btn-customized:active:focus, 
+.form button.btn-customized.active:focus,
+.form button.btn.btn-primary:not(:disabled):not(.disabled):active,
+.form button.btn.btn-primary:not(:disabled):not(.disabled):active:focus {
+	outline: 0; background: #8542a0; border: 0; color: #fff; box-shadow: none;
+}
+
